@@ -82,6 +82,24 @@
           }
         }
       }
+    },
+    "put": {
+      "requestBody": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "todo": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
     }
-  }
   }
