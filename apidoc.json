@@ -42,9 +42,33 @@
           }
         },
         "responses": {
-          "200": {}
-        }
-      }
+          "200": {
+            "description": "Create new todo",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        },
+        "delete": {
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "number"
+                    }
+                  }
+                }
+              }
+            }
+          }
+         }
+    }
     }
   }
-}
