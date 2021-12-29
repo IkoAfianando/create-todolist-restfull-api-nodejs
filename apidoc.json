@@ -69,6 +69,19 @@
             }
           }
          }
+    },
+      "responses": {
+        "200": {
+          "description": "Delete todo",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Response"
+              }
+            }
+          }
+        }
+      }
     }
-    }
+  }
   }
