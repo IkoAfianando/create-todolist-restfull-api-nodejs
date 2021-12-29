@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Title",
-    "description": "Title",
+    "title": "NodeJS Todolist API",
+    "description": "NodeJS Todolist API",
     "version": "1.0.0"
   },
   "servers": [
