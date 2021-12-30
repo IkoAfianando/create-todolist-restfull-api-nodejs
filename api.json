@@ -12,7 +12,20 @@
   ],
   "paths": {
     "/": {
-
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Get all todolist",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
