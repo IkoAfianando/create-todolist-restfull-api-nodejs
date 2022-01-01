@@ -25,3 +25,5 @@ class FizzBuzz {
     }
 }
 
+const fizzBuzz = new FizzBuzz("IKo Afianando");
+
