@@ -26,4 +26,6 @@ class FizzBuzz {
 }
 
 const fizzBuzz = new FizzBuzz("IKo Afianando");
+fizzBuzz.fizzBuzz(100);
+console.log(fizzBuzz.sayHello("Joko Hello"));
 
