@@ -19,4 +19,12 @@ class FizzBuzz {
             }
         }
     }
+
+    sayHello(name) {
+        return `Hello ${name}, My Name is ${this.name}`;
+    }
 }
+
+const fizzBuzz = new FizzBuzz("Iko Afianando");
+fizzBuzz.fizzBuzz(100);
+console.log(fizzBuzz.sayHello("Joko"));
