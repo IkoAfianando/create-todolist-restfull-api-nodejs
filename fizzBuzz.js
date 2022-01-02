@@ -14,6 +14,8 @@ class FizzBuzz {
                 console.log(`Fizz ${i}`);
             }else if(data3) {
                 console.log(`Buzz ${i}`);
+            }else {
+                console.log(i);
             }
         }
     }
