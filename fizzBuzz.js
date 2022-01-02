@@ -1,3 +1,4 @@
 class FizzBuzz {
-
+    constructor(name) {
+    }
 }
