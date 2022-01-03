@@ -24,3 +24,8 @@
         return factorialTailRecursive(result * value, value - 1);
     }
  }
+
+
+ console.log(factorialTest(3));
+ console.log(factorialRecursive(3));
+ console.log(factorialTailRecursive(1, 3));
