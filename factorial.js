@@ -9,3 +9,9 @@
      }
      return result;
  }
+
+ function factorialRecursive(value) {
+    if(value <= 0) {
+        return 1;
+    }
+ }
