@@ -7,4 +7,5 @@
      for (let i = value; i >= 1; i--) {
          result *= i;
      }
+     return result;
  }
