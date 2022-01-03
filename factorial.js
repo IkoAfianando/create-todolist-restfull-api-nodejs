@@ -2,7 +2,6 @@
     if(value <= 0) {
         return 1;
     }
-
     let result = 1;
      for (let i = value; i >= 1; i--) {
          result *= i;
@@ -19,5 +18,9 @@
  }
 
  function factorialTailRecursive(result, value) {
-
+    if(value <= 0) {
+        return result;
+    }else {
+        return factorialTailRecursive(result * value, value - 1);
+    }
  }
