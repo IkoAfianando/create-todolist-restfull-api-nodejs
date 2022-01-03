@@ -17,3 +17,7 @@
         return value * factorialRecursive(value - 1);
     }
  }
+
+ function factorialTailRecursive(result, value) {
+
+ }
