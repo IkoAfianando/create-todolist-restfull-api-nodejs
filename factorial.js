@@ -5,7 +5,6 @@
 
     let result = 1;
      for (let i = value; i >= 1; i--) {
-
-
+         result *= i;
      }
  }
