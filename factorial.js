@@ -11,4 +11,8 @@ function factorialTest(value) {
     return result;
 }
 
+function factorialRecursive(value) {
+
+}
+
 console.log(factorialTest(4));
