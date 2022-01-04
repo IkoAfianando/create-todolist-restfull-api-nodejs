@@ -16,4 +16,12 @@ function factorialRecursive(value) {
     return value * factorialRecursive(value - 1);
 }
 
+function factorialTailRecursive(value) {
+    if(value <= 0) {
+        return 1;
+    }
+
+}
+
 console.log(factorialTest(4));
+console.log(factorialRecursive(4));
