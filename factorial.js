@@ -26,4 +26,4 @@ function factorialTailRecursive(total, value) {
 
 console.log(factorialTest(4));
 console.log(factorialRecursive(4));
-console.log(factorialTailRecursive(1,4));
+console.log(factorialTailRecursive(1,3));
