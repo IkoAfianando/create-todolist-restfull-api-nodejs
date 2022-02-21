@@ -6,8 +6,8 @@ const input = readline.createInterface({
     output: process.stdout
 });
 
-input.question("Berapa angka yang ingin anda filter?", function(fizBuzz) {
-    for(let i = 1; i <= fizBuzz; i++) {
+input.question("Masukkan angka yang ingin ada masukkan?", function fizzBuzz(data) {
+    for (let i = 1; i <= parseInt(data); i++) {
         const data1 = i % 3 === 0 && i % 5 === 0;
         const data2 = i % 3 === 0;
         const data3 = i % 5 === 0;
