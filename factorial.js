@@ -9,6 +9,14 @@ function factorialTest(value) {
     return result;
 }
 
+function factorialRecursive2(value2) {
+    if(value2 <= 0) {
+        return 1 ;
+    }
+        return value2 * factorialRecursive2(value2 - 1);
+
+}
+
 function factorialRecursive(value) {
     if(value <= 0) {
         return 1;
@@ -27,3 +35,4 @@ function factorialTailRecursive(total, value) {
 console.log(factorialTest(4));
 console.log(factorialRecursive(4));
 console.log(factorialTailRecursive(1,3));
+console.log(factorialRecursive2(4))
